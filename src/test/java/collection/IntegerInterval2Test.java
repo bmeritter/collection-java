@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 /**
- * Created by ritter on 17-5-1.
+ * 根据给出的两个数字得到自增的偶数区间
  */
 public class IntegerInterval2Test {
   @Test

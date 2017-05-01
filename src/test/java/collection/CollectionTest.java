@@ -5,8 +5,12 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
+
 public class CollectionTest {
 
+  /**
+   * 集合中偶数
+   */
   @Test
   public void should_return_all_oven() {
     Collection collection = new Collection();
@@ -17,11 +21,15 @@ public class CollectionTest {
 
   }
 
+
+  /**
+   * 返回集合中最后一个元素
+   */
   @Test
   public void should_return_last_element() {
     Collection collection = new Collection();
     int[] col = {1, 2, 3, 4, 5};
     int result = collection.collect_last_element(col);
-    assertThat(result,is(5));
+    assertThat(result, is(5));
   }
 }

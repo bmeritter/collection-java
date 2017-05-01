@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * 根据给出的两个数字得到一个自增1的数字区间
+ */
 public class IntegerIntervalTest {
   @Test
   public void should_return_integer_interval_1() {

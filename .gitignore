@@ -21,6 +21,7 @@
 # Gradle:
 .idea
 .gradle
+build
 .idea/gradle.xml
 .idea/libraries
 

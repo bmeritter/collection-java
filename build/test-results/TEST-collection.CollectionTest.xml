@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="collection.CollectionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-05-01T09:08:48" hostname="ritter-K54HR" time="0.012">
-  <properties/>
-  <testcase name="should_return_all_oven" classname="collection.CollectionTest" time="0.004"/>
-  <testcase name="should_return_last_element" classname="collection.CollectionTest" time="0.005"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

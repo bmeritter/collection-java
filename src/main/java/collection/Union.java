@@ -1,12 +1,24 @@
 package collection;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by ritter on 17-5-2.
  */
 public class Union {
-  public int[] get_union(int[] collection_a, int[] collection_b) {
+  public Object[] get_union(int[] collection_a, int[] collection_b) {
 
-    return null;
+    List list = new ArrayList();
+    for (int a : collection_a) {
+      list.add(a);
+    }
+    for (int b : collection_b) {
+      if (!list.contains(b)) {
+        list.add(b);
+      }
+    }
+    return list.toArray();
 
   }
 }
